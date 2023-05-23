@@ -80,8 +80,6 @@ const Header = () => {
                         </div>
                             <button >خدمات ما</button>
                     </div>
-                        <Link to="/blog"><button>بلاگ</button></Link>
-                        <Link to="/workwithus"><button>همکاری با ما</button></Link>
                 </nav>
             </div>
             <div className={styles.Header}>
@@ -91,10 +89,10 @@ const Header = () => {
                             <Link to="/contactus">
                                 <button>درباره ما</button>
                             </Link>
-                            {!localStorage.getItem('user') && <Link to="/login">
-                                <button>ورود</button>
-                            </Link>}
-                            {localStorage.getItem('user') && <Link to="/myaccount">
+                            {!localStorage.getItem('uservip4caresale') && <a href="https://www.ecma.app">
+                                <button>Vip4Care</button>
+                            </a>}
+                            {localStorage.getItem('uservip4caresale') && <Link to="/myaccount">
                                 <button>صفحه من</button>
                             </Link>}
                         </div>
@@ -119,8 +117,6 @@ const Header = () => {
                                 </div>
                                 <button >خدمات ما</button>
                             </div>
-                            <Link to="/blog"><button>بلاگ</button></Link>
-                            <Link to="/workwithus"><button>همکاری با ما</button></Link>
                         </div>
                         <div></div>
                         <div></div>

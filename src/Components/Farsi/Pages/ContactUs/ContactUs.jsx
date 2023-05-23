@@ -9,7 +9,6 @@ import axios from "axios";
 // Components
 import Header from "../../Header/Header";
 import AboutUsInContact from "./AboutUs/AboutUsInContact";
-import EmergencyNurse from "../Home/Emergency Nurse/EmergencyNurse";
 import EmergencyCall from "../../Emergency Call/EmergencyCall";
 import License from "../../License/License";
 import Footer from "../../Footer/Fooer";
@@ -30,9 +29,6 @@ const ContactUs = () => {
                     </section>
                     <section>
                         <  AboutUsInContact/>
-                    </section>
-                    <section>
-                        <  EmergencyNurse/>
                     </section>
                     <section>
                         <  License/>

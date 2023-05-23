@@ -22,9 +22,16 @@ const Service = ({productData}) => {
                 <div className={styles.description}>
                     <p dangerouslySetInnerHTML={createText()}></p>
                 </div>
-                <Link to={`/home/${productData._id}`}>
-                    <button>بیشتر بخوانید</button>
-                </Link>
+                <div className={styles.details}>
+                    <section>
+                        <p>مدل کالا: Ch120aa</p>
+                        <p>گارانتی: 2سال</p>
+                    </section>
+                    <section>
+                        <p>قیمت: 15.000.000</p>
+                        <p>تعداد: 12</p>
+                    </section>
+                </div>
             </div>
         </div>
      );

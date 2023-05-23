@@ -5,7 +5,6 @@ import styles from './Home.module.css'
 
 // Conmonents
 import HeaderandLanding from './Header and Landing page/HeaderandLanding';
-import EmergencyNurse from './Emergency Nurse/EmergencyNurse';
 import AboutUs from './About Us/AboutUs';
 import Services from '../../Services/Services';
 import License from '../../License/License';
@@ -22,9 +21,6 @@ const Home = () => {
                 </section>
                 <section className={styles.HeaderandLanding}>
                     <  HeaderandLanding/>
-                </section>
-                <section className={styles.EmergencyNurse}>
-                    <  EmergencyNurse/>
                 </section>
                 <section className={styles.AboutUs}>
                     <  AboutUs/>
